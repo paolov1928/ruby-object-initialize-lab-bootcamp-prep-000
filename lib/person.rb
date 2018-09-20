@@ -8,6 +8,8 @@ class Person
   end
   
   def name=(name)
+    @name
+  end
   
   class Dog
   def initialize(breed)
